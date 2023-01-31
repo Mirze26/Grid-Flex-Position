@@ -1,0 +1,298 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(37, 37, 37);
+}
+
+
+
+
+.main{
+    justify-content: space-evenly;
+    display: flex;
+    position: relative;
+    top: 150px;
+    
+
+}
+
+.city1{
+    width: 400px;
+    height: 609px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+
+.city1 img{
+    width: 400px;
+height: 250px;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+}
+
+.city1 strong{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    color: magenta;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+
+.city1 h2{
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-weight: 700;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.city1 p{
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    left: 55px;
+    top: 30px;
+    color: rgb(70, 68, 68);
+    text-shadow: 0px 2px 4px
+    
+    
+}
+
+.city1 .footer{
+    display: flex;
+    position: relative;
+    top: 50px;
+}
+
+.city1 .views{
+    color: white;
+    padding-top: 5px;
+    text-align: center;
+    width: 135px;
+    font-size: 22px;
+    height: 63px;
+    background-color: magenta;
+    border: 1px rgb(173, 0, 173) solid;
+    border-bottom-left-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.city1 .comments{
+    color: white;
+    padding-top: 5px;
+    text-align: center;
+    width: 135px;
+    font-size: 20px;
+     height: 63px;
+     background-color: magenta;
+     border: 1px rgb(173, 0, 173) solid;
+     font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+.city1 .rating{
+    color: white;
+    text-align: center;
+    width: 130px;
+    font-size: 24px;
+     height: 63px;
+     background-color: magenta;
+     border: 1px rgb(173, 0, 173) solid;
+     font-family:Arial, Helvetica, sans-serif;
+    border-bottom-right-radius: 30px;
+}
+
+
+.city2{
+    width: 400px;
+    height: 583px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.city2 img{
+    width: 400px;
+    height: 250px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.city2 strong{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 20px;
+    color: rgb(235, 97, 5);
+}
+
+.city2 h2{
+    font-size: 30px;
+        text-align: center;
+        position: relative;
+        top: 20px;
+        font-weight: 700;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.city2 p{
+    width: 300px;
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        left: 55px;
+        top: 30px;
+        color: rgb(70, 68, 68);
+        text-shadow: 0px 2px 4px
+
+}
+
+.city2 .footer{
+    display: flex;
+        position: relative;
+        top: 50px;
+}
+
+.city2 .views{
+    color: white;
+    padding-top: 5px;
+    text-align: center;
+    width: 135px;
+    font-size: 22px;
+    height: 63px;
+    background-color: rgb(235, 97, 5);
+    border: 1px rgb(141, 72, 4) solid;
+    border-bottom-left-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.city2 .comments{
+    color: white;
+    padding-top: 5px;
+    text-align: center;
+    width: 135px;
+    font-size: 20px;
+     height: 63px;
+     background-color: rgb(235, 97, 5);
+     border: 1px rgb(141, 72, 4) solid;
+     font-family: Arial, Helvetica, sans-serif;  
+}
+
+
+.city2 .rating{
+    color: white;
+    text-align: center;
+    width: 130px;
+    font-size: 24px;
+     height: 63px;
+     background-color: rgb(235, 97, 5);
+     border: 1px rgb(141, 72, 4) solid;
+     font-family:Arial, Helvetica, sans-serif;
+    border-bottom-right-radius: 30px;
+    
+}
+
+
+.city3{
+    width: 400px;
+    height: 583px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.city3 img{
+    width: 400px;
+    height: 250px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.city3 strong{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 20px;
+    color: green;
+}
+
+.city3 h2{
+    font-size: 30px;
+        text-align: center;
+        position: relative;
+        top: 20px;
+        font-weight: 700;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.city3 p{
+    width: 300px;
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        left: 55px;
+        top: 30px;
+        color: rgb(70, 68, 68);
+        text-shadow: 0px 2px 4px
+}
+
+.city3 .footer{
+    display: flex;
+    position: relative;
+    top: 50px;
+}
+
+.city3 .views{
+    color: rgb(247, 244, 244);
+    padding-top: 5px;
+    text-align: center;
+    width: 135px;
+    font-size: 23px;
+    height: 63px;
+    background-color: rgb(9, 170, 4);
+    border: 1px rgb(2, 32, 1) solid;
+    border-bottom-left-radius: 30px;
+    font-family: Arial, Helvetica,
+}
+
+.city3 .comments{
+    color: white;
+    padding-top: 5px;
+    text-align: center;
+    width: 135px;
+    font-size: 20px;
+     height: 63px;
+     background-color: rgb(9, 170, 4);
+     border: 1px rgb(2, 32, 1) solid;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.city3 .rating{
+    color: white;
+    text-align: center;
+    width: 130px;
+    font-size: 24px;
+     height: 63px;
+     background-color: rgb(9, 170, 4);
+     border: 1px rgb(2, 32, 1) solid;
+     font-family:Arial, Helvetica, sans-serif;
+    border-bottom-right-radius: 30px;
+}
